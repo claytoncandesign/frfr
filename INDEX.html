@@ -41,6 +41,8 @@
    top: 15px;
    left: 15px;
    float: left;
+   border-bottom: 0.5px solid rgb(94, 9, 8);
+   border-right: 0.5px solid rgb(94, 9, 8);
    }
    #codingimage {
    float: left;
@@ -49,16 +51,49 @@
    }
    #uprightmod {
        float: right;
-       width: 25%;
+       width: 30%;
        background-color: rgb(255, 255, 255);
        overflow: auto;
        height: 380px;
        position: absolute;
        top: 15px;
        right:15px;
+       border-bottom: 0.5px solid rgb(94, 9, 8);
+       border-left: 0.5px solid rgb(94, 9, 8);
+       padding: 5px;
+       margin: 5px;
    }
    #lyrics {
       text-align: center;
+   }
+   .captions {
+       font-size: 1em;
+       font-family: sans-serif;
+       text-align: center;
+       color: rgb(99, 91, 99);
+   }
+   .photogallery {
+       background-color: rgb(166, 219, 245);
+   }
+   .photoone {
+       width: 25%;
+       float: left;
+       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   }
+   .phototwo {
+       width: 25%;
+       float: left;
+       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   }
+   .photothree {
+       width: 25%;
+       float: left;
+       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   }
+   .photofour {
+       width: 25%;
+       float: left;
+       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
    }
    </style>
   </head>
@@ -77,8 +112,14 @@
         <h2>header text here</h2>
         <p>i dont realy no what to place here so i am just writing random things.<span id="lyrics"><br>donde esta la biblioteca<br>me llamo T-bone<br>la aranja discoteca<br>discoteca muneca la biblioteca<br>es un bigote grande perro manteca<br>manteca, bigote, chiqueta, pequeno<br>cabeza es nieve<br>cervesa es buena<br>buenos dias me gusta papas frios<br>bigote de la cabre es cameron diaz.</span></p>
     </div>
-   <!--this is the right sidebar-->
+   <!--this is the bottom sidebar-->
    <!--this is the photo gallery-->
+    <div id="photogallery">
+        <div class="photoone"><img class="photos" src="https://www.kasandbox.org/programming-images/landscapes/beach-sunset.png" alt="bruh moment"><p class="captions">this photo is very cool because of the sunset</p></div>
+        <div class="phototwo"><img class="photos" src="https://www.kasandbox.org/programming-images/landscapes/beach-with-palm-trees.png" alt="bruh moment"><p class="captions">this photo is very cool because of the sanndy beach</p></div>
+        <div class="photothree"><img class="photos" src="https://www.kasandbox.org/programming-images/landscapes/lava.png" alt="bruh moment"><p class="captions">this photo is very cool because of the hot lava</p></div>
+        <div class="photofour"><img class="photos" src="https://www.kasandbox.org/programming-images/landscapes/sand-dunes.png" alt="bruh moment"><p class="captions">this photo is very cool because of the sandy dunes</p></div>
+    </div>
    <!--this is the footnote-->
   </body>
  </html>
